@@ -1,0 +1,1 @@
+Fatal error: Uncaught Error: Call to undefined function check_login() in C:\xampp\htdocs\Task-2-logan\login_action.php:17 Stack trace: #0 {main} thrown in C:\xampp\htdocs\Task-2-logan\login_action.php on line 17
