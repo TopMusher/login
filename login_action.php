@@ -1,11 +1,11 @@
 <?php
 
 
-include_once "C:/xampp/htdocs/Task-2-logan/log_in.php";
-
+include_once "C:/xampp/htdocs/Task-2-logan/libraries/login_lib.php";
 
 $email = $_POST["email"];
-$password = $_POST["password"];
+$password = $POST["password"];
+
 
 $details = array(
     $email,
@@ -13,7 +13,8 @@ $details = array(
     $account_type
 );
 
-$logged_in = check_login($email, $password);
+
+$logged_in= check_login($email, $password);
 
 
 //check if user wants to be remembered
