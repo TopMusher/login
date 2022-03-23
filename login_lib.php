@@ -1,9 +1,6 @@
 <?php
 
-include_once "<C:>
-<xampp>
-<htdocs>
-<Task-2-logan>db.php";
+include_once "C:/xampp\htdocs\Task-2-logan\libraries\db.php";
 
 
 function check_login($email,$password){
