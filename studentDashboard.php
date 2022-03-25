@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
     <head>
     <title>Student Dashboard</title>
@@ -100,8 +100,22 @@
 
 
 
-<div class="container">
-  <h4><center>Current Task Progress</center></h4>
+<div id="chgtext">Current Task Progress</div>
+
+<script type="text/javascript">
+
+  function changeTextEngLang(){
+    var change = document.getElementById("mybtn");
+    if (change.innerHTML == "on"){
+      change.innerHTML
+    }
+  }
+
+
+</script>
+
+
+  
   <div class="progress">
     <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:70%">
       <span class="sr-only">30% Complete</span>
@@ -118,7 +132,7 @@
 </div>
 
 <!--task options-->
-<table style="margin-left: 30px; margin-right: 30px; float: leftt">
+<table style="margin-left: 160px; margin-right: 30px; float: leftt">
   <tr>
       <td>
         <div class="fillerImg1">
@@ -142,7 +156,7 @@
             <p><button type="submit" style=margin-top:10px>Submit</button></p>
           </div>
 </div>
-          <a id="myBtn">
+          <a id="myBtn" onClick="changeTextEngLang">
           <img src="https://maxcdn.icons8.com/Share/icon/ios7/Files/open_book1600.png" href="#" width=200px float=left>
           <h4><center>English Language</center></h4>
             </a>  
@@ -213,11 +227,11 @@
   <!--Code for the right hand side margin-->
 
    <div class="youtubeVid" style="float: right">
-   <h2 style="margin-right: 30px"><strong><u><center>Recent News!</center></u></strong></h2>
-  <iframe width="300" style="margin-right: 30px" src="https://www.youtube.com/embed/qSbpz7NmIEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <h2 style="margin-right: 60px"><strong><u><center>Recent News!</center></u></strong></h2>
+  <iframe width="300" style="margin-right: 60px" src="https://www.youtube.com/embed/qSbpz7NmIEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-  <h4 style="margin-right: 30px"><center>New Content Added!</center></h4>
-  
+  <h4 style="margin-right: 60px"><center>New Content Added!</center></h4>
+  <h5 style="margin-right: 60px"><center>Check out the 'content' tab in your navigation bar for more!</center></h5>
   </div>
   
   </table>
@@ -245,20 +259,25 @@
   <p><button type="submit" style=margin-top:10px>Submit</button></p>
 </div>
 </div>
-  </table>
+  
 <!--code for the maths line-->
-<table style="margin-left: 30px; margin-right: 30px; float: left">
-  <img src="https://cdn3.iconfinder.com/data/icons/education-ultimate-set/512/algebra-512.png" width=150px float=left>
-  <h4><center>Mathematics</center></h4>
-</a>
+<table style="margin-left: 430px; margin-right: 30px; float: leftt">
+<tr>
+  <td>
+      <img src="https://cdn3.iconfinder.com/data/icons/education-ultimate-set/512/algebra-512.png" width=200px float=left>
+      <h4><center>Mathematics</center></h4>
+      </a>
+  </td>
 </div>
+</tr>
+ 
   </table>
-<table style="margin:0 auto">
+  <table style="margin-left: 180px; margin-right: 30px; float: leftt">
   <tr>
     <td>
       <div class="fillerImg1">
       <a href="#">
-        <img src="https://th.bing.com/th/id/OIP.u3D42LiNnRVw9NQsk7WSdgHaIb?pid=ImgDet&rs=1" width=150px>
+        <img src="https://th.bing.com/th/id/OIP.u3D42LiNnRVw9NQsk7WSdgHaIb?pid=ImgDet&rs=1" width=200px>
         <h4><center>Physics</center></h4>
       </a>
       </div>
@@ -266,7 +285,7 @@
     <td>
       <div class="fillerImg1">
       <a href="#">
-        <img src="https://cdn.onlinewebfonts.com/svg/img_490832.png" width=150px>
+        <img src="https://cdn.onlinewebfonts.com/svg/img_490832.png" width=200px height=200px>
         <h4><center>Chemistry</center></h4>
       </a>      
       </div>
@@ -274,7 +293,7 @@
     <td>
       <div class="fillerImg1">
       <a href="#">
-        <img src="https://th.bing.com/th/id/OIP.kL_ef35dVUKzXmYWRPUIiQHaHa?pid=ImgDet&rs=1" width=150px>
+        <img src="https://th.bing.com/th/id/OIP.kL_ef35dVUKzXmYWRPUIiQHaHa?pid=ImgDet&rs=1" width=200px>
         <h4><center>Physics</center></h4>
       </a>  
       </div>
@@ -374,5 +393,14 @@ window.onclick = function(event) {
   <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
+
+<!--footer code-->
+
+<footer>
+
+
+
+</footer>
+
 </body>
 </html>
